@@ -28,3 +28,26 @@ a {
     background: black;
   }
 }
+
+.bg-header {
+  background: url(https://picsum.photos/1920/1920/?random) center center
+    no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-quote {
+  background: url(https://picsum.photos/1600/1600/?random) center center
+    no-repeat;
+  background-attachment: fixed;
+}
+
+.parallax {
+  /* The image used */
+  background: url(https://i.picsum.photos/id/128/3823/2549.jpg?hmac=VbPyA2vESva2YdoXqll9REBcbQIskgv_c-D60C1s0xc);
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
