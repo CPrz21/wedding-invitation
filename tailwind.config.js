@@ -5,7 +5,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nothing: ["Nothing You Could Do", "sans-serif"],
+      },
+      colors: {
+        "w-primary": "#6A96A7",
+        "w-secondary": "#bad9d3",
+      },
+    },
   },
   plugins: [],
 };

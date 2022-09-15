@@ -1,1 +1,1 @@
-export * from "./parallaxSection";
+export * from "./firstSection";
