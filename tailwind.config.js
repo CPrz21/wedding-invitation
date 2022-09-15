@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         nothing: ["Nothing You Could Do", "sans-serif"],
+        dancing: ["Dancing Script", "sans-serif"],
       },
       colors: {
         "w-primary": "#6A96A7",

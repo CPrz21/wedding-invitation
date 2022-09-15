@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import { IoLocationSharp } from "react-icons/io5";
+
 import { FirstSection } from "../components/home/firstSection";
 
 const Home: NextPage = () => {
@@ -14,8 +16,37 @@ const Home: NextPage = () => {
       <main>
         <FirstSection />
         <section className="h-screen w-screen bg-w-secondary relative">
-          <div className="w-full h-1/2"></div>
-          <div className="w-full h-1/2 bg-white"></div>
+          <div className="absolute top-[50%] left-[25%] translate-x-[-50%] translate-y-[-60%]">
+            <h2 className="font-dancing text-7xl text-center">Nuestra Boda</h2>
+          </div>
+          <div className="w-full h-1/2 flex justify-end items-center">
+            <div className="w-[40%] font-nothing">
+              <p className="text-4xl mb-5">
+                <strong>Cuando?</strong>
+              </p>
+              <p className="text-2xl">Sábado, 12 Nov. 2022</p>
+              <p className="text-2xl">Recepción: 3:30pm</p>
+            </div>
+          </div>
+          <div className="w-full h-1/2 bg-white flex justify-end items-center">
+            <div className="w-[40%] font-nothing">
+              <p className="text-4xl mb-5">
+                <strong>Donde?</strong>
+              </p>
+              <p className="text-2xl mb-8">
+                Carretera al Boquerón, KM, 18.5, <br /> Volcán de, San Salvador
+              </p>
+              <a
+                target="_blank"
+                href="https://goo.gl/maps/BoWj1wzxgHs12hBw8"
+                className="text-2xl text-w-primary"
+                rel="noreferrer"
+              >
+                <strong>Ver Ubicación en Maps</strong>
+                <IoLocationSharp className="inline ml-2 text-2xl" />
+              </a>
+            </div>
+          </div>
         </section>
       </main>
     </>
