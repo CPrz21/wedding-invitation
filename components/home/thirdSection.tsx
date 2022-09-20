@@ -4,9 +4,11 @@ export const ThirdSection = () => {
   return (
     <section className="bg-w-secondary py-11 flex flex-col items-center">
       <AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
-        <h2 className="font-dancing text-7xl text-center mb-4">¡A celebrar!</h2>
+        <h2 className="font-dancing text-5xl md:text-7xl text-center mb-4">
+          ¡A celebrar!
+        </h2>
       </AnimationOnScroll>
-      <p className="text-4xl mb-8 font-nothing w-3/5 text-center">
+      <p className="text-2xl md:text-4xl mb-8 font-nothing w-4/5 md:w-3/5 text-center">
         Sera muy especial contar contigo, no olvides confirmar tu asistencia a
         nuestra boda.
       </p>
