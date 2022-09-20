@@ -1,9 +1,16 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 import { FirstSection, SecondSection, ThirdSection } from "../components";
 
 const Home: NextPage = () => {
+  // const { query } = useRouter();
+
+  // const {
+  //   invitation = null,
+  //   friend = null
+  // } = query || {}
   return (
     <>
       <Head>
