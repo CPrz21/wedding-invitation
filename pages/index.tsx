@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           property="og:description"
           content="Ven a nuestra boda este 12 de noviembre 😄🎉"
         />
-        <meta property="og:image" content={`${origin}/images/aychands.png`} />
+        <meta property="og:image" content={`${origin}/images/aychands2.png`} />
       </Head>
       <main>
         <FirstSection />
