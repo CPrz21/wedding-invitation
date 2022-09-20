@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { IoLocationSharp } from "react-icons/io5";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 import { FirstSection } from "../components/home/firstSection";
 
@@ -16,22 +17,49 @@ const Home: NextPage = () => {
       <main>
         <FirstSection />
         <section className="h-screen w-screen bg-w-secondary relative">
-          <div className="absolute top-[50%] left-[25%] translate-x-[-50%] translate-y-[-60%]">
-            <h2 className="font-dancing text-7xl text-center">Nuestra Boda</h2>
+          <div className="absolute top-[50%] left-[25%] translate-x-[-50%] translate-y-[-50%] rotate-[-5deg]">
+            <h2 className="font-dancing text-7xl text-center mb-10">
+              Nuestra Boda
+            </h2>
+            <AnimationOnScroll
+              animateOnce={true}
+              animateIn="animate__fadeInLeft"
+            >
+              <div className="w-full h-[30rem] relative rounded-lg overflow-hidden">
+                <Image
+                  src="/images/aycphoto.jpg"
+                  alt={`Best Couple Ever ❤️`}
+                  layout="fill"
+                  objectFit="cover"
+                  priority
+                />
+              </div>
+            </AnimationOnScroll>
           </div>
           <div className="w-full h-1/2 flex justify-end items-center">
-            <div className="w-[40%] font-nothing">
+            <AnimationOnScroll
+              animateOnce={true}
+              animateIn="animate__fadeInRight"
+              className="w-[40%] font-nothing"
+            >
               <p className="text-4xl mb-5">
                 <strong>Cuando?</strong>
               </p>
               <p className="text-2xl">Sábado, 12 Nov. 2022</p>
               <p className="text-2xl">Recepción: 3:30pm</p>
-            </div>
+            </AnimationOnScroll>
           </div>
           <div className="w-full h-1/2 bg-white flex justify-end items-center">
-            <div className="w-[40%] font-nothing">
+            <AnimationOnScroll
+              animateOnce={true}
+              animateIn="animate__fadeInRight"
+              className="w-[40%] font-nothing"
+            >
               <p className="text-4xl mb-5">
                 <strong>Donde?</strong>
+              </p>
+              <p className="text-4xl mb-2">
+                <strong>Santa Angela</strong>
               </p>
               <p className="text-2xl mb-8">
                 Carretera al Boquerón, KM, 18.5, <br /> Volcán de, San Salvador
@@ -45,7 +73,28 @@ const Home: NextPage = () => {
                 <strong>Ver Ubicación en Maps</strong>
                 <IoLocationSharp className="inline ml-2 text-2xl" />
               </a>
-            </div>
+            </AnimationOnScroll>
+          </div>
+        </section>
+        <section className="bg-w-secondary py-11 flex flex-col items-center">
+          <AnimationOnScroll animateOnce={true} animateIn="animate__rubberBand">
+            <h2 className="font-dancing text-7xl text-center mb-4">
+              ¡A celebrar!
+            </h2>
+          </AnimationOnScroll>
+          <p className="text-4xl mb-8 font-nothing w-3/5 text-center">
+            Sera muy especial contar contigo, no olvides confirmar tu asistencia
+            a nuestra boda.
+          </p>
+          <div className="flex space-x-2 justify-center">
+            <a href="https://api.whatsapp.com/send/?phone=50375013093&text=%C2%A1Hola%21+quiero+confirmar+mi+asistencia+de+dos+personas+para+tu+boda+%F0%9F%98%8A%F0%9F%8E%89">
+              <button
+                type="button"
+                className="font-nothing inline-block px-6 py-2.5 bg-white text-black text-xl leading-tight shadow-md hover:opacity-70 hover:shadow-lg  focus:shadow-lg focus:outline-none focus:ring-0 active:opacity-40 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Confirmar
+              </button>
+            </a>
           </div>
         </section>
       </main>
