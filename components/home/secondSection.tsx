@@ -21,7 +21,7 @@ export const SecondSection = () => {
           </div>
         </AnimationOnScroll>
       </div>
-      <div className="w-full h-auto lg:h-1/2 flex justify-end items-center bg-w-secondary lg:bg-transparent py-12 lg:py-0 px-6 lg:px-0">
+      <div className="w-full h-auto lg:h-1/2 flex justify-end items-center bg-w-secondary lg:bg-transparent py-12 lg:py-0 px-6 lg:px-0 overflow-hidden">
         <AnimationOnScroll
           animateOnce={true}
           animateIn="animate__fadeInRight"
@@ -34,7 +34,7 @@ export const SecondSection = () => {
           <p className="text-xl md:text-2xl">Recepción: 3:30pm</p>
         </AnimationOnScroll>
       </div>
-      <div className="w-full h-auto lg:h-1/2 bg-white flex justify-end items-center py-12 lg:py-0 px-6 lg:px-0">
+      <div className="w-full h-auto lg:h-1/2 bg-white flex justify-end items-center py-12 lg:py-0 px-6 lg:px-0 overflow-hidden">
         <AnimationOnScroll
           animateOnce={true}
           animateIn="animate__fadeInRight"
