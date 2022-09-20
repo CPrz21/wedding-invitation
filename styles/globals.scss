@@ -75,7 +75,7 @@ a {
 }
 
 .typing-text {
-  width: 16ch;
+  width: 18.5ch;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 3px solid #000000; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -83,10 +83,10 @@ a {
   letter-spacing: 0.15em; /* Adjust as needed */
   animation: typing 3s steps(22, end), blink 0.5s step-end infinite alternate;
   @media screen and (min-width: 1280px) {
-    width: 18ch;
+    width: 16ch;
   }
   @media screen and (min-width: 1024px) {
-    width: 18ch;
+    width: 17ch;
   }
 }
 
