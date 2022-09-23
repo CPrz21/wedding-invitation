@@ -55,7 +55,7 @@ export const SecondSection = () => {
             className="text-xl md:text-2xl text-w-primary"
             rel="noreferrer"
           >
-            <strong>Ver Ubicación en Mapssss</strong>
+            <strong>Ver Ubicación en Mapss</strong>
             <IoLocationSharp className="inline ml-2 text-2xl" />
           </a>
         </AnimationOnScroll>
