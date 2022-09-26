@@ -13,8 +13,11 @@ export const ThirdSection = () => {
           ¡A celebrar!
         </h2>
       </AnimationOnScroll>
+      {/* Su presencia y buenos deseos son suficientes para nuestra boda pero */}
+      {/* Regalo Obligatorio 🚨: ¡Su Presencia y buenos deseos! son suficientes para nuestra boda 😊, pero si deseas regalarnos algo más tendrémos un buzón en la recepción 😳🥺 */}
+      {/* en la entrada habrá un  buzón para depositarlos */}
       <p className="text-2xl md:text-4xl mb-8 font-nothing w-4/5 md:w-3/5 text-center">
-        Sera muy especial contar contigo, no olvides confirmar tu asistencia a
+        Será muy especial contar contigo, no olvides confirmar tu asistencia a
         nuestra boda.
       </p>
       <div className="flex space-x-2 justify-center">
@@ -46,6 +49,12 @@ export const ThirdSection = () => {
           </p>
         )}
       </div>
+      <br />
+      <br />
+      <p className="text-2xl md:text-4xl mb-8 font-nothing w-4/5 md:w-3/5 text-center">
+        El regalo es opcional, su presencia es obligatoria. Pero si quieres dar
+        un aporte para nuestra vida juntos al entrar tendremos un buzón. 💌🫣
+      </p>
     </section>
   );
 };
