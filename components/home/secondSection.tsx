@@ -45,7 +45,7 @@ export const SecondSection = () => {
             <strong>Santa Angela</strong>
           </p>
           <p className='text-xl md:text-2xl mb-8'>
-            Carretera al Boquerón, KM, 18.5, <br /> Volcán de, San Salvadoor
+            Carretera al Boquerón, KM, 18.5, <br /> Volcán de, San Salvador
           </p>
           <a
             target='_blank'
