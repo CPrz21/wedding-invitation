@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/CPrz21/wedding-invitation/compare/v1.1.0...v1.1.1) (2023-02-07)
+
+
+### Bug Fixes
+
+* replaces main text ([827008c](https://github.com/CPrz21/wedding-invitation/commit/827008cb848dbf68f86c114ae11a8486e523f68f))
+
 ## [1.1.0](https://github.com/CPrz21/wedding-invitation/compare/v1.0.0...v1.1.0) (2023-02-07)
 
 
